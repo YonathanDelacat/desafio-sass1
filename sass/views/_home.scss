@@ -1,0 +1,44 @@
+.index-main{
+    background-image: url(../../public/img/bg-index.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    &-bg{
+            background-color: rgba(0, 0, 0, 0.486);
+    }
+    &-t{
+        padding: 90px  30px    40px    30px;
+    }
+    &-d{
+        font-size: 20px;
+        padding: 0px  30px    35px    30px;
+    }
+    &-h2{
+        padding: 0px  30px  100px    30px;
+        font-size: 35px;
+        color: white;
+        :hover{
+            text-decoration: none;
+            color: white;
+            border: 1px solid white;
+            background-color: rgba(0, 0, 0, 0.486);
+            transition-duration: 1.5s;
+        }
+    }
+    &-link{
+        color: white;
+        text-decoration: none;
+    }
+    &-caja2{
+        height: 100%;
+    }
+}
+@media only screen and (max-width: 992px){
+    /**index**/    
+        .index-main-d{
+            font-size: 20px;
+            padding: 0px  25%    35px    25%;
+    }    
+    .footer{
+        text-align: center;
+    }  
+}

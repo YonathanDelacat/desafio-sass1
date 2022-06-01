@@ -1,0 +1,97 @@
+/* VARIABLES */
+/* GLOBALES */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: white; }
+
+body {
+  height: 100%; }
+
+.white {
+  color: white; }
+
+.center {
+  text-align: center; }
+
+.text-left {
+  text-align: left;
+  padding-top: 0; }
+
+.fix-padding {
+  padding-right: 0;
+  padding-left: 0; }
+
+.padding-20 {
+  padding-top: 20px; }
+
+.padding-b-20px {
+  padding-bottom: 20px; }
+
+.fix-gutter {
+  --bs-gutter-x: 0; }
+
+.padding-0 {
+  padding: 0; }
+
+.total-center {
+  display: flex;
+  text-align: center;
+  align-items: center; }
+
+.underline {
+  text-decoration: underline; }
+
+/* PARTIALS */
+.logo {
+  padding: 0;
+  margin: 0;
+  height: 40px; }
+
+.logo {
+  padding: 0;
+  margin: 0;
+  height: 40px; }
+
+.footer {
+  color: white;
+  height: 45px;
+  padding: 0%;
+  margin: 0; }
+
+/* VIEWS */
+.index-main {
+  background-image: url(../../public/img/fondodesenfo.jpg);
+  background-size: cover;
+  background-attachment: fixed; }
+  .index-main-bg {
+    background-color: rgba(0, 0, 0, 0.486); }
+  .index-main-t {
+    padding: 90px  30px    40px    30px; }
+  .index-main-d {
+    font-size: 20px;
+    padding: 0px  30px    35px    30px; }
+  .index-main-h2 {
+    padding: 0px  30px  100px    30px;
+    font-size: 35px;
+    color: white; }
+    .index-main-h2 :hover {
+      text-decoration: none;
+      color: white;
+      border: 1px solid white;
+      background-color: rgba(0, 0, 0, 0.486);
+      transition-duration: 1.5s; }
+  .index-main-link {
+    color: white;
+    text-decoration: none; }
+  .index-main-caja2 {
+    height: 100%; }
+
+@media only screen and (max-width: 992px) {
+  /**index**/
+  .index-main-d {
+    font-size: 20px;
+    padding: 0px  25%    35px    25%; }
+  .footer {
+    text-align: center; } }

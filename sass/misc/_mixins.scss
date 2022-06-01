@@ -1,0 +1,35 @@
+.white{
+    color: white;
+}
+.center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+    padding-top: 0;
+}
+.fix-padding{
+    padding-right: 0;
+    padding-left: 0;
+}
+.padding-20{
+    padding-top: 20px;
+}
+
+.padding-b-20px{
+    padding-bottom: 20px;
+}
+.fix-gutter{
+    --bs-gutter-x: 0;
+}
+.padding-0{
+    padding: 0;
+}
+.total-center{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.underline{
+    text-decoration: underline;
+}
